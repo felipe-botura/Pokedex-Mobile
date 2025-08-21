@@ -41,12 +41,12 @@ export default function PokemonDetail() {
             />
           ))}
         </ScrollView>
-      </View>
-      <View style={styles.dataContainer}>
-        <TextInfo label='Descrição' text={pokemon.Descricao} />
-        <TextInfo label='Espécie' text={pokemon.Especie} />
-        <TextInfo label='Altura' text={`${pokemon.Altura} mts`} />
-        <TextInfo label='Peso' text={`${pokemon.Peso} kg`} />
+        <View style={styles.dataContainer}>
+          <TextInfo label='Descrição' text={pokemon.Descricao} />
+          <TextInfo label='Espécie' text={pokemon.Especie} />
+          <TextInfo label='Altura' text={`${pokemon.Altura} mts`} />
+          <TextInfo label='Peso' text={`${pokemon.Peso} kg`} />
+        </View>
       </View>
     </View>
   );

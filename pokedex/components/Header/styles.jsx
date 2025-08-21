@@ -4,10 +4,10 @@ export const styles = StyleSheet.create({
     container: {
         marginBottom: 10,
     },
-    ImageContainer: {
+    imageContainer: {
         height: 100,
     },
-    Image: {
+    image: {
         width: "100%",
         opacity: 0.2,
         height: 250,

@@ -7,7 +7,7 @@ const imageSource = require("@/assets/images/header.jpg");
 
 export default function Header({ title, back = false }) {
     const router = useRouter();
-
+    
     return (
         <View style={styles.container}>
             <View style={styles.imageContainer}>
